@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/nastani.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="nav navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <p class="logo1"><a href="index.html"><img src="./images/brainster_space_logo.svg"></a></p>
+                <button class="form-button btn btn-md" id="navBtn1" data-toggle="modal" data-target="#mymodal1"><i
+                        class="fa fa-plus"></i>&nbsp;&nbsp; ПРИКЛУЧИ СЕ
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right" role="tablist">
+                    <li><a href="https://marketpreneurs.brainster.co/">SPACE БЛОГ</a></li>
+                    <li><a href="http://codepreneurs.co/">НАСТАНИ</a></li>
+                    <li><a href="#">CO-WORKING</a></li>
+                    <li><a href="https://design.brainster.co/">АКАДЕМИИ</a></li>
+                    <li><a href="https://design.brainster.co/">ПРОСТОР ЗА НАСТАНИ</a></li>
+                    <li><a href="https://design.brainster.co/">ПАРТНЕРСТВА</a></li>
+                </ul>
+                <button class="form-button btn btn-md" id="navBtn" data-toggle="modal" data-target="#mymodal1"><i
+                        class="fa fa-plus"></i>&nbsp;&nbsp; ПРИКЛУЧИ СЕ
+                </button>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <div id="calendar">
+        <h1 id="title">Календар</h1>
+          <div class="claendar-controls">
+              <i id="prevBtn" class="fa fas fa-arrow-circle-left prev" style="font-size: 45px;"></i>
+              <div id="montyAndYear">Mart 2020</div>
+              <i id="nextBtn" class="fa fas fa-arrow-circle-right next" style="font-size: 45px;"></i>
+          </div>
+  
+          <div class="calendar-header">
+              <div class="header-cell">Sun</div>
+              <div class="header-cell">Mon</div>
+              <div class="header-cell">Tue</div>
+              <div class="header-cell">Wed</div>
+              <div class="header-cell">Thu</div>
+              <div class="header-cell">Fri</div>
+              <div class="header-cell">Sat</div>
+          </div>
+  
+          <div id="calendar-body">
+              <!-- will be filled dynamically -->
+          </div>
+      </div>
+  
+      <div class="container-fluid nextFeatures">
+        <div class="row">
+          <h3>Следни Настани</h3>
+          <div class="col-md-6 col-sm-6 col-xs-12 blue">
+            <p>23.04.2020</p>
+            <h4>Deep dive into Data Science</h4>
+            <p> 10:00 - 12:00</p>
+          </div>
+  
+          <div class="col-md-6 col-sm-6 col-xs-12 red">
+            <p>10.05.2020</p>
+            <h4>Deep dive into Marketing</h4>
+            <p>10:00 - 12:00</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row footer">
+        <div class="col-md-2 col-md-offset-4 col-sm-2 col-sm-offset-2 footerLogo1">
+          <img src="./images/brainster_space_logo.svg">
+        </div>
+        <div class="col-md-2 col-sm-2 linkovi">
+          <ul>
+            <p>Корисни Линкови</p>
+            <li><a data-toggle="modal" data-target="#mymodal3">Контакт</a></li>
+            <li><a href="https://www.wearelaika.com">Отворени Позиции</a></li>
+            <li><a
+                href="https://medium.com/wearelaika/brainster-space-the-new-home-of-the-local-tech-community-in-skopje-ffe97b564152">Галерија</a>
+            </li>
+            <li>Календар</li>
+          </ul>
+        </div>
+        <div class="col-md-2 col-sm-4 col-sm-offset-2 linkovi">
+          <ul>
+            <p>Социјални Мрежи </p>
+            <li><i class="fa fa-facebook fa-2x"></i><i class="fa fa-linkedin fa-2x"></i><i
+                class="fa fa-instagram fa-2x"></i></li>
+          </ul>
+        </div>
+        <div class="col-md-2 col-md-offset-4 col-sm-2 col-sm-offset-2 footerLogo">
+          <img src="./images/brainster_space_logo.svg">
+        </div>
+      </div>
+      <div class="row rights text-center ">
+        <h5>COPYRIGHT@BrainsterSpace. All Rights Reserved</h5>
+      </div>
+
+        <script src="./assets/js/nastani.js"></script>
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

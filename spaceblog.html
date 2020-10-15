@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SpaceBlog</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/spaceblog.css">
+</head>
+
+<body>
+
+    <nav class="nav navbar-default" style="background-color: white;">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <p class="logo1"><a href="spaceblog.html"><img src="./images/brainster_space_logo.svg"></a></p>
+                <button class="form-button btn btn-md" id="navBtn1" data-toggle="modal" data-target="#mymodal1"><i
+                        class="fa fa-plus"></i>&nbsp;&nbsp; ПРИКЛУЧИ СЕ
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right" role="tablist">
+                    <li><a href="https://marketpreneurs.brainster.co/">SPACE БЛОГ</a></li>
+                    <li><a href="http://codepreneurs.co/">НАСТАНИ</a></li>
+                    <li><a href="#">CO-WORKING</a></li>
+                    <li><a href="https://design.brainster.co/">АКАДЕМИИ</a></li>
+                    <li><a href="https://design.brainster.co/">ПРОСТОР ЗА НАСТАНИ</a></li>
+                    <li><a href="https://design.brainster.co/">ПАРТНЕРСТВА</a></li>
+                </ul>
+                <button class="form-button btn btn-md" id="navBtn" data-toggle="modal" data-target="#mymodal1"><i
+                        class="fa fa-plus"></i>&nbsp;&nbsp; ПРИКЛУЧИ СЕ
+                </button>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <!-- ----------------------SECOND NAV------------------------------ -->
+    <ul class="secondNav">
+        <p class="filterP">ФИЛТРИРАЈ</p>
+        <li>СИТЕ</li>
+        <li>КАРИЕРА</li>
+        <li>ТЕХНОЛОГИЈА</li>
+        <li>DATA SCIENCE</li>
+        <li>MАРКЕТИНГ</li>
+        <li>ДИЗАЈН</li>
+        <li>IMPACT</li>
+        <li>#SpaceFamily</li>
+    </ul>
+    <!-- -----------------------CAROUSEL------------------------------- -->
+    <div class="container-fluid">
+        <div class="row">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active one fix">
+                        <div class="carousel-caption">
+                            <span class="badge">КАРИЕРА</span>
+                            <h2>Deep Dive семинари кои ќе овозможуваат брз кариерен напредок</h2>
+                            <p>Нов продукт од Brainster во Brainster Space. Интензивни дводневни семинари кои ќе ти
+                                помогнат од Mid level брзо да го постигнеш твојот Senior напредок</p>
+                            <button class="btn "><i class="fa fa-arrow-right"></i>&nbsp;&nbsp;Дознај повеќе</button>
+                        </div>
+                    </div>
+                    <div class="item two fix">
+                        <div class="carousel-caption">
+                            <span class="badge">КАРИЕРА</span>
+                            <h2>Ако не те бица за програмирање дали<br> можеш да имаш кариера во Tech?</h2>
+                            <p>Tech индустријата е најпосакувана област за работа, заради големата
+                                побарувачка,секојдневните промени и големиот инкам.</p>
+                            <button class="btn "><i class="fa fa-arrow-right"></i>&nbsp;&nbsp;Дознај повеќе</button>
+                        </div>
+                    </div>
+                    <div class="item three fix">
+                        <div class="carousel-caption">
+                            <span class="badge">ТЕХНОЛОГИЈА</span>
+                            <h2>Што значи денес, твојата канцеларија да е smart?</h2>
+                            <p>На отворањето на Brianster Space, добивме супер подарок- smart home ypeg. ToneM pen од
+                                нас беа збунети за тоа што се можеме да добиеме со него.</p>
+                            <button class="btn "><i class="fa fa-arrow-right"></i>&nbsp;&nbsp;Дознај повеќе</button>
+                        </div>
+                    </div>
+                    <div class="item four fix">
+                        <div class="carousel-caption">
+                            <span class="badge">DATA SCIENCE</span>
+                            <h2>Како до кариера во Data Science?</h2>
+                            <p>Од искуството на студентите на нашата акдемија, решивме да ви помогнеме со неколку tips
+                                за потребните skills за да започнете да работите Data Science.</p>
+                            <button class="btn "><i class="fa fa-arrow-right"></i>&nbsp;&nbsp;Дознај повеќе</button>
+                        </div>
+                    </div>
+                    <div class="item five fix">
+                        <div class="carousel-caption">
+                            <span class="badge">МАРКЕТИНГ</span>
+                            <h2>Интервју со Николај Ванчев,арт директор во Tank, Estonia.</h2>
+                            <p>Николај Ванчев e Creative director Bo TANK (Естонија). Неговата успешна 12 годишна
+                                кариера како арт директор тоj ja гради во реномирани агенции...</p>
+                            <button class="btn "><i class="fa fa-arrow-right"></i>&nbsp;&nbsp;Дознај повеќе</button>
+                        </div>
+                    </div>
+                    <div class="item six fix">
+                        <div class="carousel-caption">
+                            <span class="badge">ДИЗАЈН</span>
+                            <h2>Зошто дизајн, накратко со Дијана Димитриевска</h2>
+                            <p>Интервју со Дијана Димитриевска, графички дизајнер, DJ и инструктор на Академијата за
+                                Графички дизајн во Brainster.</p>
+                            <button class="btn "><i class="fa fa-arrow-right"></i>&nbsp;&nbsp;Дознај повеќе</button>
+                        </div>
+                    </div>
+                    <div class="item seven fix">
+                        <div class="carousel-caption">
+                            <span class="badge">ДИЗАЈН</span>
+                            <h2>Што е потребно за добар мобилен дизајн</h2>
+                            <p>UX/Ul дизајнерите се дигитални продукт дизајнери. Нивната задача е да создадат корисен,
+                                релевантен и едноставен за корисниците продукт.</p>
+                            <button class="btn "><i class="fa fa-arrow-right"></i>&nbsp;&nbsp;Дознај повеќе</button>
+                        </div>
+                    </div>
+                    <div class="item eight fix">
+                        <div class="carousel-caption">
+                            <span class="badge">IMPACT</span>
+                            <h2>Македонско-американската компанија Upshift доби инвестиција од 3.7 милиони...</h2>
+                            <p>Он-дименд платформата за работа се шири со нова рунда финансиране предводена од Recruit
+                                кoja e најголемата HR Tech компанија BO CBETOT...</p>
+                            <button class="btn "><i class="fa fa-arrow-right"></i>&nbsp;&nbsp;Дознај повеќе</button>
+                        </div>
+                    </div>
+                    <div class="item nine fix">
+                        <div class="carousel-caption">
+                            <span class="badge">IMPACT</span>
+                            <h2>Локалната апликацијата challenger и нејзиниот MMNAKT. #SpaceFamily</h2>
+                            <p>Мисијата на Challenger e да создавање општествено одговорна заедница која создава
+                                позитивна промена преку развивање на подобри индивидуални навики...</p>
+                            <button class="btn "><i class="fa fa-arrow-right"></i>&nbsp;&nbsp;Дознај повеќе</button>
+                        </div>
+                    </div>
+
+
+
+
+                    <a class="thumbBtn1 left" href="#myCarousel" data-slide="prev">
+                        <i class="fa fa-arrow-left "></i>
+                    </a>
+                    <a class="thumbBtn1" href="#myCarousel" data-slide="next">
+                        <i class="fa fa-arrow-right "></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------   CARDS--------------------------------- -->
+
+    <div class="container-fluid">
+        <div class="row cards1">
+            <div class="col-md-4 col-sm-6 col-xs-12 thumbDiv">
+                <a href="https://www.brainster.co">
+                    <div class="thumbnail">
+                        <img src="./assets/css/one.jpeg" alt="...">
+                        <div class="caption">
+                            <h3>Deep Dive семинари кои ќе овозможуваат брз кариерен напредок</h3>
+                            <p>Нов продукт од Brainster во Brainster Space. Интензивни дводневни семинари кои ќе ти
+                                помогнат од Mid level брзо да го постигнеш твојот Senior напредок</p>
+                            <p><span class="badge pull-left cardBadge">КАРИЕРА</span><a href="#" class="btn btn-default thumbBtn" role="button"><i
+                                        class="fa fa-arrow-right "></i></a></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 thumbDiv">
+                <a href="nastani.index">
+                    <div class="thumbnail">
+                        <img src="./assets/css/two.jpg" alt="...">
+                        <div class="caption">
+                            <h3>Ако не те бица за програмирање дали<br> можеш да имаш кариера во Tech?</h3>
+                            <p>Tech индустријата е најпосакувана област за работа, заради големата
+                                побарувачка,секојдневните промени и големиот инкам.</p>
+                            <p><span class="badge pull-left cardBadge">КАРИЕРА</span><a href="#" class="btn btn-default thumbBtn" role="button"><i
+                                        class="fa fa-arrow-right "></i></a></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 thumbDiv">
+                <a href="prostorZaNastani.index">
+                    <div class="thumbnail">
+                        <img src="./assets/css/three.jpg" alt="...">
+                        <div class="caption">
+                            <h3>Што значи денес, твојата канцеларија да е smart?</h3>
+                            <p>На отворањето на Brianster Space, добивме супер подарок- smart home ypeg. ToneM pen од
+                                нас беа збунети за тоа што се можеме да добиеме со него.</p>
+                            <p><span class="badge pull-left cardBadge">ТЕХНОЛОГИЈА</span><a href="#" class="btn btn-default thumbBtn" role="button"><i
+                                        class="fa fa-arrow-right "></i></a></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 thumbDiv">
+                <a href="https://www.brainster.co">
+                    <div class="thumbnail">
+                        <img src="./assets/css/five.jpg" alt="...">
+                        <div class="caption">
+                            <h3>Како до кариера во Data Science?</h3>
+                            <p>Од искуството на студентите на нашата акдемија, решивме да ви помогнеме со неколку tips
+                                за потребните skills за да започнете да работите Data Science.</p>
+                            <p><span class="badge pull-left cardBadge">DATA SCIENCE</span><a href="#" class="btn btn-default thumbBtn" role="button"><i
+                                        class="fa fa-arrow-right "></i></a></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 thumbDiv">
+                <a data-toggle="modal" data-target="#mymodal1">
+                    <div class="thumbnail">
+                        <img src="./assets/css/four.jpg" alt="...">
+                        <div class="caption">
+                            <h3>Интервју со Николај Ванчев,арт директор во Tank, Estonia.</h3>
+                            <p>Николај Ванчев e Creative director Bo TANK (Естонија). Неговата успешна 12 годишна
+                                кариера како арт директор тоj ja гради во реномирани агенции...</p>
+                            <p><span class="badge pull-left cardBadge">МАРКЕТИНГ</span><a href="#" class="btn btn-default thumbBtn" role="button"><i
+                                        class="fa fa-arrow-right "></i></a></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 thumbDiv">
+                <a data-toggle="modal" data-target="#mymodal2">
+                    <div class="thumbnail">
+                        <img src="./assets/css/six1.jpg" alt="...">
+                        <div class="caption">
+                            <h3>Зошто дизајн, накратко со Дијана Димитриевска</h3>
+                            <p>Нов концепт кој ќе им помогне на компаниите да преминат од стариот во новиот начин на
+                                работење.
+                                Подгответе ја вашата компанија за дигитална трансформација.
+                            </p>
+                            <p><span class="badge pull-left cardBadge">ДИЗАЈН</span><a href="#" class="btn btn-default thumbBtn" role="button"><i
+                                        class="fa fa-arrow-right "></i></a></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 thumbDiv">
+                <a data-toggle="modal" data-target="#mymodal2">
+                    <div class="thumbnail">
+                        <img src="./assets/css/seven.jpg" alt="...">
+                        <div class="caption">
+                            <h3>Што е потребно за добар мобилен дизајн</h3>
+                            <p>UX/Ul дизајнерите се дигитални продукт дизајнери. Нивната задача е да создадат корисен,
+                                релевантен и едноставен за корисниците продукт.</p>
+                            <p><span class="badge pull-left cardBadge">ДИЗАЈН</span><a href="#" class="btn btn-default thumbBtn" role="button"><i
+                                        class="fa fa-arrow-right "></i></a></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 thumbDiv">
+                <a data-toggle="modal" data-target="#mymodal2">
+                    <div class="thumbnail">
+                        <img src="./assets/css/eight.jpg" alt="...">
+                        <div class="caption">
+                            <h3>Македонско-американската компанија Upshift доби инвестиција од 3.7 милиони...</h3>
+                            <p>Он-дименд платформата за работа се шири со нова рунда финансиране предводена од Recruit
+                                кoja e најголемата HR Tech компанија BO CBETOT...</p>
+                            <p><span class="badge pull-left cardBadge">IMPACT</span><a href="#" class="btn btn-default thumbBtn" role="button"><i
+                                        class="fa fa-arrow-right "></i></a></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 thumbDiv">
+                <a data-toggle="modal" data-target="#mymodal2">
+                    <div class="thumbnail">
+                        <img src="./assets/css/nine.jpg" alt="...">
+                        <div class="caption">
+                            <h3>Локалната апликацијата challenger и нејзиниот MMNAKT.</h3>
+                            <p>Мисијата на Challenger e да создавање општествено одговорна заедница која создава
+                                позитивна промена преку развивање на подобри индивидуални навики...</p>
+                            <p><span class="badge pull-left cardBadge">IMPACT</span><a href="#" class="btn btn-default thumbBtn" role="button"><i
+                                        class="fa fa-arrow-right "></i></a></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row footer">
+        <div class="col-md-2 col-md-offset-4 col-sm-2 col-sm-offset-2 footerLogo1">
+          <img src="./images/brainster_space_logo.svg">
+        </div>
+        <div class="col-md-2 col-sm-2 linkovi">
+          <ul>
+            <p>Корисни Линкови</p>
+            <li><a data-toggle="modal" data-target="#mymodal3">Контакт</a></li>
+            <li><a href="https://www.wearelaika.com">Отворени Позиции</a></li>
+            <li><a
+                href="https://medium.com/wearelaika/brainster-space-the-new-home-of-the-local-tech-community-in-skopje-ffe97b564152">Галерија</a>
+            </li>
+            <li>Календар</li>
+          </ul>
+        </div>
+        <div class="col-md-2 col-sm-4 col-sm-offset-2 linkovi">
+          <ul>
+            <p>Социјални Мрежи </p>
+            <li><i class="fa fa-facebook fa-2x"></i><i class="fa fa-linkedin fa-2x"></i><i
+                class="fa fa-instagram fa-2x"></i></li>
+          </ul>
+        </div>
+        <div class="col-md-2 col-md-offset-4 col-sm-2 col-sm-offset-2 footerLogo">
+          <img src="./images/brainster_space_logo.svg">
+        </div>
+      </div>
+      <div class="row rights text-center ">
+        <h5>COPYRIGHT@BrainsterSpace. All Rights Reserved</h5>
+      </div>
+    </div>
+
+
+
+
+    <!-- -----------------------------modal--------------------------- -->
+    <div class="modal fade" id="mymodal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true"><i class="fa fa-times"></i></span></button>
+                    <h2 class="modal-title" id="myModalLabel">Приклучи се</h2>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form onsubmit="myFunction()">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group col-md-12 col-xs-12">
+                                        <label for="name1">Внесете Име и презиме (задолжително)</label>
+                                        <input type="text" class="form-control" id="name1"
+                                            placeholder="Внесете Име и презиме" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group col-md-12 col-xs-12">
+                                        <label for="pwd">Име на компанија (незадолжително)</label>
+                                        <input type="text" class="form-control" id="pwd"
+                                            placeholder="Внесете име на Вашата компанија" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group col-md-12 col-xs-12">
+                                        <label for="num1">Телефонски Број (задолжително)</label>
+                                        <input type="num" class="form-control" id="num1"
+                                            placeholder="Внесете телефонски број" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="col-md-12 col-xs-12">
+                                        <label for="textArea1" class="textAreaLabel">Предлог за Соработка
+                                            (незадолжително)<span
+                                                class="badge pull-right textAreaBadge">300</span></label>
+                                        <textarea cols="81" rows="5" id="textArea1"
+                                            placeholder="Во 300 карактери, опишете зошто сакате да соработуваме"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row modal-footer1">
+                                <div class="col-md-12 ">
+                                    <button type="submit" class="btn btn-sm pull-right submitBtn"> <i
+                                            class="fa fa-arrow-right"></i>
+                                        ИСПРАТИ ФОРМА</button>
+                                    <button class="pull-right submitBtn1" data-dismiss="modal"> ИСКЛУЧИ</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./assets/js/spaceblog.js"></script>
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
